@@ -1,0 +1,22 @@
+body{
+	margin: 0;
+    background: #a2a2a2;
+}
+#clock-container{
+	width: 40%
+    margin:50px 0 0 410px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+#face{
+	stroke-width:2px;
+    stroke: #555;
+    fill: pink;
+}
+#hour,#min,#sec{
+	stroke-width:1px;
+    fill: #333;
+    stroke: #555;}
+#sec{
+	stroke: red;
+}
